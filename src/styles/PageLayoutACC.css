@@ -1,0 +1,63 @@
+.page-container,
+.about-page,
+.career-page {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  min-height: 80vh;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.page-title,
+.about-title,
+.career-page h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #003366;
+  margin-bottom: 30px;
+}
+
+.page-content,
+.about-text,
+.career-page p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.about-section {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .page-container,
+  .about-page,
+  .career-page {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+  .page-title,
+  .about-title {
+    font-size: 1.6rem;
+  }
+
+  .page-content,
+  .about-text,
+  .career-page p {
+    font-size: 1rem;
+    padding: 0 15px;
+  }
+}

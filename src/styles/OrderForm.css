@@ -1,0 +1,86 @@
+/* OrderForm.css */
+.order-form-container {
+  background-color: #e3f2fd; /* Soft blue */
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.order-form-container h2 {
+  text-align: center;
+  color: #0d47a1;
+  margin-bottom: 1.5rem;
+}
+
+form label {
+  display: block;
+  font-weight: 600;
+  color: #0d47a1;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #90caf9;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #1976d2;
+}
+
+form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.pesanan-group {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed #90caf9;
+}
+
+button {
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+button.remove-btn {
+  background-color: #e53935;
+  margin-top: 0.75rem;
+}
+
+button.remove-btn:hover {
+  background-color: #c62828;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-top: 1px solid #bbdefb;
+}

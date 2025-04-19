@@ -1,0 +1,40 @@
+.partnership-section {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .partnership-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .partnership-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .partnership-section button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    width: 150px;
+    height: 40px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  
+  .partnership-section button:hover {
+    transform: scale(1.05);
+  }
+  
