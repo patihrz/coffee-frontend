@@ -3,8 +3,8 @@
 Welcome to **Trike Coffee**, a modern coffee shop web application built with **React**, styled responsively, dan dilengkapi dengan animasi smooth menggunakan **Framer Motion**. Aplikasi ini dibuat sebagai bagian dari portfolio showcase untuk menampilkan UI/UX design serta integrasi dengan backend REST API.
 
 ## 🔗 Live Demo
-👉 [https://coffee-frontend-mu.vercel.app](https://coffee-frontend-mu.vercel.app)
-
+👉 [LINK HomePage](https://coffee-frontend-mu.vercel.app)
+👉 [LINK Admin/Barista](https://coffee-frontend-mu.vercel.app/admin)
 ## 🚀 Features
 
 - 🍽️ Menu lengkap kopi, non-kopi, makanan, dan lainnya.
